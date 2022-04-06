@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/*.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }*/
+
+html, body {
+	margin: 0 auto;
+	width: 1440px;
+	background-color: hsl(257, 40%, 49%);
+	background-image: url(images/bg-desktop.svg);
+	background-repeat: no-repeat;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600px;
+
+}
+ 
+ header {
+ 	display: flex;
+ 	margin: 40px 0 75px 40px;
+ 	justify-content: flex-start;
+ }
+
+ main {
+ 	display: flex;
+ 	flex-direction: row;
+ }
+
+ main .hero-image {
+ 	margin: 20px 0 0 40px;
+ 	width: 709;
+ 	height: 506;
+ }
+
+ main .hero-text {
+ 	color: white;
+ 	margin-top: -10px;
+ 	margin-left: 40px;
+ 	padding: 75px 75px 75px 50px;
+ }
+
+ main .hero-text p {
+ 	margin: 50px 0;
+ }
+
+ main .hero-text .register {
+ 	width: 175px;
+ 	height: 50px;
+ 	background-color: white;
+ 	border-radius: 25px;
+ }
+  main .hero-text .register:hover {
+  	background-color: hsl(300, 69%, 71%);
+ }
+
+ main .hero-text a {
+ 	padding: 3px;
+ 	line-height: 50px;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	color:  hsl(300, 69%, 71%);
+ 	margin-left: 50px;
+ }
+
+ main .hero-text a:hover {
+ 	color: white;
+ }
+
+ footer {
+ 	display: flex;
+ 	justify-content: flex-end;
+ }
+
+ /*footer .favicon {
+ 	align-content: space-around;
+ }*/
